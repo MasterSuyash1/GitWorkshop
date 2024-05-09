@@ -1,5 +1,12 @@
+What is Git?
+------------
 
+Git is a distributed version control system that allows multiple developers to collaborate on a project. It tracks changes to files, allows users to create branches for development, and provides tools for merging changes from different branches.
 
+Git vs GitHub
+-------------
+
+Git is a version control system that tracks changes to files and directories, while GitHub is a web-based platform that hosts Git repositories and provides collaboration tools for developers.
 
 Check Git Version
 -----------------
@@ -191,4 +198,12 @@ Git remove origin
 git remote remove origin
 ```
 The `git remote remove` command is used to remove a remote repository from the local repository. Replace `origin` with the name of the remote repository.
+
+Git diff
+--------
+
+```bash
+git diff
+```
+The `git diff` command is used to view the changes between the working directory and the staging area. It shows the differences in the content of files that are staged or unstaged.
 
