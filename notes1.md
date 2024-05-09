@@ -207,3 +207,64 @@ git diff
 ```
 The `git diff` command is used to view the changes between the working directory and the staging area. It shows the differences in the content of files that are staged or unstaged.
 
+Git Stash
+---------
+
+```bash
+git stash
+```
+The `git stash` command is used to temporarily store changes that are not ready to be committed. It saves the changes to a stack and reverts the working directory to the last commit.
+
+
+Git Stash Pop
+------------
+
+```bash
+git stash pop
+```
+The `git stash pop` command is used to apply the changes stored in the stash and remove them from the stack. It reapplies the most recently stashed changes to the working directory.
+
+Git Stash List
+--------------
+
+```bash
+git stash list
+```
+
+The `git stash list` command is used to view the list of stashes stored in the stack. It displays the stash index, branch, and message for each stash.
+
+Git Stash Apply
+---------------
+
+```bash
+git stash apply
+```
+The `git stash apply` command is used to apply the changes stored in the stash to the working directory. It keeps the changes in the stash stack for future use.
+
+Git rebase
+----------
+
+```bash
+git rebase <branchname>
+```
+
+The `git rebase` command is used to reapply commits on top of another base tip. Replace `<branchname>` with the branch you want to rebase onto.
+
+Git reset
+---------
+
+```bash
+git reset <commit>
+```
+The `git reset` command is used to reset the current HEAD to the specified commit. It can be used to undo changes or move the HEAD to a different commit.
+
+Git revert
+----------
+
+```bash
+
+git revert <commit>
+```
+
+The `git revert` command is used to create a new commit that undoes the changes introduced by a specific commit. It is a safe way to undo changes without altering the commit history.
+
