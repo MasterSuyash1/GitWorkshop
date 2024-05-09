@@ -143,3 +143,52 @@ The `git merge` command is used to merge changes from one branch into another. R
 - Recursive merge: When the branch being merged has diverged and requires a new commit to reconcile the changes.
 
 
+Git add remote
+--------------
+
+```bash
+git remote add origin <remote-url>
+```
+The `git remote add` command is used to add a remote repository to the local repository. Replace `<remote-url>` with the URL of the remote repository.
+
+Push Changes to Remote Repository
+---------------------------------
+
+```bash
+git push -u origin <branchname>
+```
+The `git push` command is used to push changes from the local repository to the remote repository. The `-u` option is used to set the upstream branch for the current branch. Replace `<branchname>` with the branch you want to push.
+
+Pull Changes from Remote Repository
+------------------------------------
+
+```bash
+git pull origin <branchname>
+```
+
+The `git pull` command is used to fetch and merge changes from the remote repository to the local repository. Replace `<branchname>` with the branch you want to pull.
+
+View Remote Repositories
+------------------------
+
+```bash
+git remote -v
+```
+The `git remote` command is used to view the remote repositories associated with the local repository. The `-v` option is used to display the URLs of the remote repositories.
+
+Clone a Remote Repository
+-------------------------
+
+```bash
+git clone <remote-url>
+```
+The `git clone` command is used to clone a remote repository to the local machine. Replace `<remote-url>` with the URL of the remote repository.
+
+Git remove origin
+-----------------
+
+```bash
+git remote remove origin
+```
+The `git remote remove` command is used to remove a remote repository from the local repository. Replace `origin` with the name of the remote repository.
+
